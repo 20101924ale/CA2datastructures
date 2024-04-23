@@ -1,16 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
+<?import com.gluonhq.charm.glisten.control.TextField?>
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.parisroutefinder.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="686.0" style="-fx-background-color: #E8C1C5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#9055a2" layoutX="-118.0" layoutY="78.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Paris" textAlignment="CENTER" wrappingWidth="484.2835998535156">
+         <font>
+            <Font name="Cartographer Regular" size="76.0" />
+         </font>
+         <effect>
+            <DropShadow height="0.0" offsetX="6.0" offsetY="6.0" radius="0.0" width="0.0">
+               <color>
+                  <Color opacity="0.18546845018863678" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <ImageView fitHeight="366.0" fitWidth="408.0" layoutX="-1.0" layoutY="42.0" opacity="0.41">
+         <image>
+            <Image url="@—Pngtree—map%20drawing%20cartoon%20decoration_4673846.png" />
+         </image>
+         <effect>
+            <Blend mode="HARD_LIGHT" opacity="0.0" />
+         </effect>
+      </ImageView>
+      <Pane layoutX="11.0" layoutY="389.0" prefHeight="308.0" prefWidth="664.0" style="-fx-background-color: d499b9; -fx-border-color: #2e294e; -fx-border-width: 4;">
+         <effect>
+            <DropShadow height="0.0" offsetX="6.0" offsetY="6.0" radius="0.0" width="0.0">
+               <color>
+                  <Color opacity="0.12237093597650528" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Button layoutX="522.0" layoutY="26.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="90.0" text="GO!">
+               <font>
+                  <Font name="Cartographer Regular" size="19.0" />
+               </font>
+            </Button>
+            <TextField layoutX="52.0" layoutY="37.0" maxLength="10" prefHeight="96.0" prefWidth="447.0" promptText="ENTER YOUR NAME" />
+            <Text fill="#9055a2" layoutX="86.0" layoutY="159.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Type your name in to get started!" textAlignment="CENTER" wrappingWidth="497.02647291142966">
+               <font>
+                  <Font name="Cartographer Regular" size="42.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" offsetX="6.0" offsetY="6.0" radius="0.0" width="0.0">
+                     <color>
+                        <Color opacity="0.09942638874053955" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+      <Text fill="#9055a2" layoutX="105.0" layoutY="122.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Route" textAlignment="CENTER" wrappingWidth="484.2835998535156">
+         <font>
+            <Font name="Cartographer Regular" size="64.0" />
+         </font>
+         <effect>
+            <DropShadow height="0.0" offsetX="6.0" offsetY="6.0" radius="0.0" width="0.0">
+               <color>
+                  <Color opacity="0.1739961802959442" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <ImageView fitHeight="360.0" fitWidth="188.0" layoutX="469.0" layoutY="19.0" opacity="0.26">
+         <image>
+            <Image url="@968fb43f34c1669c4a873b5106d8ca49.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Text fill="#9055a2" layoutX="418.0" layoutY="199.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Finder" textAlignment="CENTER" wrappingWidth="253.81022535283591">
+         <font>
+            <Font name="Cartographer Regular" size="66.0" />
+         </font>
+         <effect>
+            <DropShadow height="0.0" offsetX="6.0" offsetY="6.0" radius="0.0" width="0.0">
+               <color>
+                  <Color opacity="0.1739961802959442" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <Text fill="#9055a2" layoutX="98.0" layoutY="384.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexandra &amp; Brianna " textAlignment="CENTER" wrappingWidth="484.2835998535156">
+         <font>
+            <Font name="Cartographer Regular" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow height="1.0" offsetX="3.0" offsetY="3.0" radius="0.0" width="0.0">
+               <color>
+                  <Color opacity="0.08030592650175095" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+   </children>
+</Pane>
