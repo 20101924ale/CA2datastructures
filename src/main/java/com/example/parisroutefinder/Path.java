@@ -3,7 +3,7 @@ package com.example.parisroutefinder;
 import java.util.List;
 
 public class Path {
-    private List<Station> path; // Represents the sequence of Station objects that make up the route
+    private List<Destination> path; // Represents the sequence of Station objects that make up the route
     private int stops; // The total number of stops along the route
     private double distance; // The total distance covered by the route
     // Constructor to initialize a Path object with a given path and number of stops
@@ -21,7 +21,7 @@ public class Path {
     }
 
     // Getter method to retrieve the path of the route
-    public List<Station> getPath() {
+    public List<Destination> getPath() {
         return path;
     }
 
