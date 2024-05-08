@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8465218-55c8-4527-b5a8-c066169b9bb6" name="Changes" comment="added pics and welcomemethods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/GraphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/ConnectDestination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/DestinationLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Route.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/parisroutefinder/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/parisroutefinder/MainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/parisroutefinder/Afghanistan_Road_Map_Overlay.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,11 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.parisroutefinder" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -64,7 +72,7 @@
       <updated>1713777634645</updated>
       <workItem from="1713777638650" duration="388000" />
       <workItem from="1713778927801" duration="14235000" />
-      <workItem from="1715182368474" duration="765000" />
+      <workItem from="1715182368474" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="commit 2">
       <created>1713790933160</created>
@@ -94,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713888498766</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added pics and welcomemethods">
+      <created>1715183544581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715183544581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +143,17 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="added pics and welcomemethods" />
     <option name="LAST_COMMIT_MESSAGE" value="added pics and welcomemethods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/parisroutefinder/Destination.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

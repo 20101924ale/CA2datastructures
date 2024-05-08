@@ -7,14 +7,14 @@ public class Path {
     private int stops; // The total number of stops along the route
     private double distance; // The total distance covered by the route
     // Constructor to initialize a Path object with a given path and number of stops
-    public Path(List<Station> path, int stops) {
+    public Path(List<Destination> path, int stops) {
         this.path = path;
         this.stops = stops;
         this.distance = 0; // Default value for distance
     }
 
     // Constructor to initialize a Path object with a given path and distance
-    public Path(List<Station> path, double distance) {
+    public Path(List<Destination> path, double distance) {
         this.path = path;
         this.distance = distance;
         this.stops = 0; // Default value for stops
