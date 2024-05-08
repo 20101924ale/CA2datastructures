@@ -49,7 +49,7 @@
                </font>
             </Button>
             <TextField fx:id="nameField" layoutX="52.0" layoutY="34.0" maxLength="10" prefHeight="99.0" prefWidth="447.0" promptText="ENTER YOUR NAME" />
-            <Label fx:id="welcomeText" layoutX="40.0" layoutY="118.0" prefHeight="80.0" prefWidth="334.0" text="Label" textFill="#9055a2">
+            <Label fx:id="welcomeText" layoutX="40.0" layoutY="118.0" prefHeight="80.0" prefWidth="334.0" textFill="#9055a2">
                <font>
                   <Font name="Cartographer Regular" size="43.0" />
                </font>

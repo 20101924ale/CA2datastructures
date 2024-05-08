@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="783.0" prefWidth="1137.0" style="-fx-background-color: #e8c1c5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="-2.0" layoutY="2.0" prefHeight="785.0" prefWidth="1143.0">
+         <top>
+            <HBox prefHeight="67.0" prefWidth="1143.0" style="-fx-background-color: #D499B9;" BorderPane.alignment="CENTER">
+               <effect>
+                  <DropShadow height="0.0" offsetX="-2.0" offsetY="2.0" radius="0.0" width="0.0">
+                     <color>
+                        <Color red="0.2800000011920929" green="0.08959999680519104" blue="0.2736533284187317" opacity="0.27915871143341064" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#9055a2" strokeType="OUTSIDE" strokeWidth="0.0" text="                        Paris Route Finder" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cartographer Regular" size="61.0" />
+                     </font>
+                     <effect>
+                        <DropShadow height="0.0" offsetX="-2.0" offsetY="2.0" radius="0.0" width="0.0">
+                           <color>
+                              <Color red="0.24684859812259674" green="0.014132553711533546" blue="0.3815789520740509" opacity="0.5799999833106995" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Text>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <HBox prefHeight="491.0" prefWidth="207.0" style="-fx-background-color: #9055A2;" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <AnchorPane prefHeight="432.0" prefWidth="813.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="493.0" fitWidth="686.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <VBox prefHeight="487.0" prefWidth="226.0" style="-fx-background-color: #9055A2;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="30.0" prefWidth="226.0">
+                     <children>
+                        <Text fill="#9055a2" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="3.0" text="               Directions " textAlignment="CENTER" wrappingWidth="190.87841796875">
+                           <font>
+                              <Font name="Cartographer Regular" size="20.0" />
+                           </font>
+                           <effect>
+                              <DropShadow height="0.0" offsetX="-2.0" offsetY="2.0" radius="0.0" width="0.0">
+                                 <color>
+                                    <Color red="0.24684859812259674" green="0.014132553711533546" blue="0.3815789520740509" opacity="0.5799999833106995" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <ListView prefHeight="443.0" prefWidth="199.0" style="-fx-background-color: #E8C1C5; -fx-border-color: #9055A2;" />
+               </children>
+            </VBox>
+         </right>
+         <bottom>
+            <HBox prefHeight="198.0" prefWidth="1143.0" style="-fx-background-color: #D499B9;" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
