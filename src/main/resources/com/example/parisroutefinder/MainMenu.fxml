@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.gluonhq.charm.glisten.control.TextField?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
@@ -12,9 +12,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="686.0" style="-fx-background-color: #E8C1C5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parisroutefinder.MainMenuController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="686.0" style="-fx-background-color: #E8C1C5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parisroutefinder.MainMenuController">
    <children>
-      <Text fill="#9055a2" layoutX="-118.0" layoutY="78.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Paris" textAlignment="CENTER" wrappingWidth="484.2835998535156">
+      <Text fill="#9055a2" layoutX="-118.0" layoutY="78.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="5.0" text="Paris" textAlignment="CENTER" wrappingWidth="484.2835998535156">
          <font>
             <Font name="Cartographer Regular" size="76.0" />
          </font>
@@ -34,7 +34,7 @@
             <Blend mode="HARD_LIGHT" opacity="0.0" />
          </effect>
       </ImageView>
-      <Pane layoutX="11.0" layoutY="389.0" prefHeight="308.0" prefWidth="664.0" style="-fx-background-color: d499b9; -fx-border-color: #2e294e; -fx-border-width: 4;">
+      <Pane layoutX="11.0" layoutY="283.0" prefHeight="189.0" prefWidth="664.0" style="-fx-background-color: d499b9; -fx-border-color: #2e294e; -fx-border-width: 4;">
          <effect>
             <DropShadow height="0.0" offsetX="6.0" offsetY="6.0" radius="0.0" width="0.0">
                <color>
@@ -43,25 +43,25 @@
             </DropShadow>
          </effect>
          <children>
-            <Button layoutX="522.0" layoutY="26.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="42.0" prefWidth="90.0" text="OK">
+            <Button layoutX="512.0" layoutY="27.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="37.0" prefWidth="90.0" text="OK">
                <font>
                   <Font name="Cartographer Regular" size="19.0" />
                </font>
             </Button>
-            <TextField fx:id="nameField" layoutX="52.0" layoutY="34.0" maxLength="10" prefHeight="99.0" prefWidth="447.0" promptText="ENTER YOUR NAME" />
-            <Label fx:id="welcomeText" layoutX="40.0" layoutY="118.0" prefHeight="80.0" prefWidth="334.0" textFill="#9055a2">
+            <TextField fx:id="nameField" layoutX="52.0" layoutY="31.0" prefHeight="35.0" prefWidth="447.0" promptText="ENTER YOUR NAME" />
+            <Label fx:id="welcomeText" layoutX="30.0" layoutY="81.0" prefHeight="80.0" prefWidth="512.0" textFill="#9055a2">
                <font>
-                  <Font name="Cartographer Regular" size="43.0" />
+                  <Font name="Cartographer Regular" size="39.0" />
                </font>
             </Label>
-            <Button layoutX="475.0" layoutY="241.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="149.0" text="next page">
+            <Button layoutX="561.0" layoutY="139.0" mnemonicParsing="false" onAction="#continueButton" prefHeight="35.0" prefWidth="91.0" text="next page">
                <font>
-                  <Font name="Cartographer Regular" size="19.0" />
+                  <Font name="Cartographer Regular" size="12.0" />
                </font>
             </Button>
          </children>
       </Pane>
-      <Text fill="#9055a2" layoutX="105.0" layoutY="122.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Route" textAlignment="CENTER" wrappingWidth="484.2835998535156">
+      <Text fill="#9055a2" layoutX="105.0" layoutY="122.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="5.0" text="Route" textAlignment="CENTER" wrappingWidth="484.2835998535156">
          <font>
             <Font name="Cartographer Regular" size="64.0" />
          </font>
@@ -73,7 +73,7 @@
             </DropShadow>
          </effect>
       </Text>
-      <ImageView fitHeight="360.0" fitWidth="188.0" layoutX="469.0" layoutY="19.0" opacity="0.26">
+      <ImageView fitHeight="258.0" fitWidth="145.0" layoutX="513.0" layoutY="18.0" opacity="0.26">
          <image>
             <Image url="@thing1.png" />
          </image>
@@ -81,7 +81,7 @@
             <DropShadow />
          </effect>
       </ImageView>
-      <Text fill="#9055a2" layoutX="418.0" layoutY="199.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Finder" textAlignment="CENTER" wrappingWidth="253.81022535283591">
+      <Text fill="#9055a2" layoutX="418.0" layoutY="199.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="5.0" text="Finder" textAlignment="CENTER" wrappingWidth="253.81022535283591">
          <font>
             <Font name="Cartographer Regular" size="66.0" />
          </font>
@@ -93,7 +93,7 @@
             </DropShadow>
          </effect>
       </Text>
-      <Text fill="#9055a2" layoutX="98.0" layoutY="384.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexandra &amp; Brianna " textAlignment="CENTER" wrappingWidth="484.2835998535156">
+      <Text fill="#9055a2" layoutX="101.0" layoutY="251.0" stroke="#2e294e" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexandra &amp; Brianna " textAlignment="CENTER" wrappingWidth="484.2835998535156">
          <font>
             <Font name="Cartographer Regular" size="15.0" />
          </font>

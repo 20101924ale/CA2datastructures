@@ -18,8 +18,7 @@ public class StartRouteFinder extends Application {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("MainMenu.fxml"));
             Parent root = loader.load();
-            Scene scene = new Scene(root, 759, 515);
-            scene.getStylesheets().add(getClass().getResource("Style.css").toExternalForm());
+            Scene scene = new Scene(root, 686, 493);
             stage.setScene(scene);
             stage.setTitle("Paris Route Finder App");
             stage.show();
